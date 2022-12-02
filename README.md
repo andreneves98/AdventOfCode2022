@@ -7,4 +7,6 @@ This repository contains possible solutions to the 2022 Advent of Code's problem
 ## How to run
 
 1. Install dependencies with `go get .`
-2. Run `go run main.go <day>` at the root directory, providing a `day` argument (e.g. 1, 2, ...)
+2. Run `go run main.go <day>.<puzzle>` at the root directory, providing a `day` argument (e.g. 1, 2, ...) and a puzzle argument if that's the case.
+
+Example: `go run main.go 2.1`
