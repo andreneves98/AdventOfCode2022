@@ -4,6 +4,7 @@ import (
 	"advent-of-code/src/day1"
 	"advent-of-code/src/day2"
 	"advent-of-code/src/day3"
+	"advent-of-code/src/day4"
 	"os"
 )
 
@@ -19,5 +20,9 @@ func main() {
 		day3.RunPuzzle1()
 	case "3.2":
 		day3.RunPuzzle2()
+	case "4.1":
+		day4.RunPuzzle1()
+	case "4.2":
+		day4.RunPuzzle2()
 	}
 }
