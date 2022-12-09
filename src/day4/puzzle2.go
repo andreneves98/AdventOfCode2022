@@ -30,6 +30,5 @@ func RunPuzzle2() {
 }
 
 func overlaps(smallerRange, biggerRange []int) bool {
-	return smallerRange[0] >= biggerRange[0] && smallerRange[0] <= biggerRange[1] ||
-		smallerRange[1] >= biggerRange[0] && smallerRange[1] <= biggerRange[1]
+	return smallerRange[0] <= biggerRange[1] && smallerRange[1] >= biggerRange[0]
 }
